@@ -16,17 +16,11 @@ sleep(1);
 }
 return (0);
 }
-<<<<<<< HEAD
 /**
  * main - Main function zombie process
  * Void: No entry parameters
  * Return: Exit 0 success
  */
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> 6be6a94eaf0dba93fb07b45c19e6db6989df3cca
 int main(void)
 {
 pid_t child_pd;
@@ -47,4 +41,4 @@ exit(0);
 infinite_while();
 return (0);
 }
->>>>>>> 2ebb6f4ab5beb012d380f7d9f97d58b001bd89ac
+
