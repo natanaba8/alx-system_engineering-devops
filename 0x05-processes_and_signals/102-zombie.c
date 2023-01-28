@@ -3,7 +3,6 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <unistd.h>
-
 /**
  * infinite_while - Run an infinite while loop.
  *
@@ -11,11 +10,11 @@
  */
 int infinite_while(void)
 {
-        while (1)
-        {
-                sleep(1);
-        }
-        return (0);
+while (1)
+{
+sleep(1);
+}
+return (0);
 }
 
 /**
