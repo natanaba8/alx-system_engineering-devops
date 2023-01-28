@@ -17,7 +17,3 @@ sleep(1);
 return (0);
 }
 
-/**
- * main - Creates five zombie processes.
- *
-
