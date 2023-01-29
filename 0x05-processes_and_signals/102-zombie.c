@@ -16,8 +16,23 @@ sleep(1);
 }
 return (0);
 }
-
-/**
- * main - Creates five zombie processes.
- *
-
+int main(void)
+{
+pid_t child_pd;
+int num_of_proc;
+for (num_of_proc = 1; num_of_proc < 6; num_of_proc++)
+{
+child_pd = fork();
+if (child_pd > 0)
+{
+printf("Zombie process created, PID: %d\n", child_pd);
+sleep(1);
+}
+else
+{
+exit(0);
+}
+}
+infinite_while();
+return (0);
+}
