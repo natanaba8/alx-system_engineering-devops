@@ -16,6 +16,11 @@ sleep(1);
 }
 return (0);
 }
+/**
+ * main - Main function zombie process
+ * Void: No entry parameters
+ * Return: Exit 0 success
+ */
 int main(void)
 {
 pid_t child_pd;
