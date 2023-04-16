@@ -40,3 +40,4 @@ listen hbnb
 " >> /etc/haproxy/haproxy.cfg
 
 service haproxy start
+
